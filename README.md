@@ -14,14 +14,14 @@ API позволяет совершать CRUD операции посредст
 ## Установка
 1. Создайте виртуальное окружение и активируйте его:
 python -m venv venv
-2. Склонируйте репозиторий:
-git clone https://github.com/david15rus/Rest_API.git
 source venv/bin/activate  # Для Windows используйте `venv\Scripts\activate`
-3. Установите зависимости:
+3. Склонируйте репозиторий:
+git clone https://github.com/david15rus/Rest_API.git
+4. Установите зависимости:
 pip install -r requirements.txt
-4. Создайте базу данных:
+5. Создайте базу данных:
 Алгоритм создание БД через админку можно посмотреть по ссылке https://metanit.com/sql/postgresql/2.1.php
-5. В файл config.py измените константу в соотвествии с вашей базой данных где
+6. В файл config.py измените константу в соотвествии с вашей базой данных где
 DATABASE_URL = "postgresql://<username>:<password>@localhost/<название_бд>" - для синхронной API
 DATABASE_URL_ASYNCIO = "postgresql+asyncpg://<username>:<password>@localhost/<название_бд>" - для асинхронной API
 
