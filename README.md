@@ -15,7 +15,7 @@ API позволяет совершать CRUD операции посредст
 1. Создайте виртуальное окружение и активируйте его:
 python -m venv venv
 2. Склонируйте репозиторий:
-git clone https://github.com/david15rus/Rest_API-FastAPI-.git
+git clone https://github.com/david15rus/Rest_API.git
 source venv/bin/activate  # Для Windows используйте `venv\Scripts\activate`
 3. Установите зависимости:
 pip install -r requirements.txt
